@@ -79,7 +79,7 @@ def parse_gpt4_response(response_data, column_headers):
 
 # Main function for Streamlit app
 def main():
-    st.title("Beckley, PDFs of feedback --> CSV")
+    st.title("PDFs of feedback to CSV magic converter for Maya")
     uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
     api_key = st.secrets['API_KEY']
     # Column headers from the CSV file
